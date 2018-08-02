@@ -1,0 +1,2 @@
+mcc --ompss --instrument -o myprog output.c
+NX_ARGS="--smp-workers=1 --throttle=dummy --instrumentation=tdg" ./myprog
